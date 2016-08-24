@@ -1,0 +1,6 @@
+framework module RMFrameWork {
+  umbrella header "RMFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

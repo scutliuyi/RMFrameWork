@@ -1,0 +1,10 @@
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*] = ZBarReaderViewImpl_Simulator.m
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*] = ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/GTMBase64" "$PODS_CONFIGURATION_BUILD_DIR/OpenUDID" "$PODS_CONFIGURATION_BUILD_DIR/RMFrameWork" "$PODS_CONFIGURATION_BUILD_DIR/Reachability" "$PODS_CONFIGURATION_BUILD_DIR/ZBarSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 NDEBUG=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/GTMBase64/GTMBase64.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OpenUDID/OpenUDID.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RMFrameWork/RMFrameWork.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Reachability/Reachability.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ZBarSDK/ZBarSDK.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "GTMBase64" -framework "OpenUDID" -framework "RMFrameWork" -framework "Reachability" -framework "ZBarSDK"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,40 @@
+{
+  "name": "RMFrameWork",
+  "version": "0.1.0",
+  "summary": "shanghai ruimin framework",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/scutliuyi/RMFrameWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuyi": "scutliuyi@163.com"
+  },
+  "source": {
+    "git": "https://github.com/scutliuyi/RMFrameWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RMFrameWork/Classes/**/*",
+  "public_header_files": "RMFrameWork/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "GTMBase64": [
+
+    ],
+    "OpenUDID": [
+
+    ],
+    "Reachability": [
+
+    ],
+    "ZBarSDK": [
+
+    ]
+  }
+}

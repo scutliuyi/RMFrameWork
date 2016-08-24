@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RMFrameWork_Example' do
+  pod 'RMFrameWork', :path => '../'
+
+  target 'RMFrameWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
